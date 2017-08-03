@@ -1,5 +1,5 @@
-/*¹«ÓÃÑùÊ½*/
-/*css rest ¿ªÊ¼*/
+/**/
+/*css rest å¼€å§‹*/
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ img{
 ul,ol{
     list-style: none;
 }
-/*css rest ½áÊø*/
+/*css rest ç»“æŸ*/
 body{
     background: #ffffff;
 }
@@ -23,10 +23,10 @@ body{
     margin:0 auto;
 }
 
-/*nav ¿ªÊ¼*/
+/*nav å¼€å§‹*/
 #nav{
     height: 84px;
-    background: #cccccc;
+    background: #ffffff;
 }
 #logo{
     position: absolute;
@@ -77,7 +77,7 @@ body{
 #ngt .read{
         background-position: 0 0;
 }
-#ngt .move{
+#ngt .movie{
         background-position: -60px 0;
 }
 #ngt .music{
@@ -92,11 +92,22 @@ body{
 #ngt .fm{
     background-position: -300px 0;
 }
-#ngt.time{
-    background-position: -360px 0;
+#ngt .time{
+    background: url("../img/ic_shijian_home_nav@2x.png ") center center;
 }
 #ngt .market{
     background-position: -420px 0;
 }
+#back{
+    height: 178px ;
+    background: url("../img/doubanapp5_bg.png ") no-repeat #edf4ed 200px 0 ;
+}
+.phone{
+    width: 950px;
+    height: 178px;
+    margin: 0 auto;
+    background: url("../img/doubanapp5.png ") no-repeat 0 -150px;
+    overflow: hidden;
+}
 
-/*nav ½áÊø*/
+/*nav ç»“æŸ*/
