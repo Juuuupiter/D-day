@@ -9,19 +9,29 @@
              height: 300px;
              width: 400px;
              border: 1px solid salmon;
-             line-height: 300px;
+             /*line-height: 300px;*/
              word-break: break-all;
+             display: table;
+             _position: absolute;
          }
-         span
-           {display: inline-block;
-               vertical-align: middle;
-               line-height: 22px;
+         #c{
+             display: table-cell;
+             vertical-align: middle;
+             _position: absolute;
+             _top:50%;
+         }
+         #b
+           {
+             position:relative;
+             top: -50%;
            }
      </style>
 </head>
 <body>
-  <div id="d">
-      <span>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</span>
+<div id="d">
+      <div id="c">
+      <div id="b">hhhhhhhhjjkjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</div>
+  </div>
   </div>
 </body>
 </html>
