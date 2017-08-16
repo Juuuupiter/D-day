@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #top, #bottom{
+            height: 50px;
+            background: #ff0000;
+        }
+        #center{
+            background: #cccccc;
+            flex-grow: 1;
+        }
+        #top{
+        }
+        #bottom{
+        }
+        body, html{
+            height: 100%;
+        }
+        #container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="top">top</div>
+    <div id="center">
+        <h1>aaa</h1>
+    </div>
+    <div id="bottom">bottom</div>
+</div>
+
+</body>
+</html>

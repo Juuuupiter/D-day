@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>左侧固定 右侧自适应</title>
+</head>
+<style>
+  *{
+      margin: 0;
+      padding: 0;
+  }
+     #left{
+    height: 300px;
+      width: 300px;
+      background: palevioletred ;
+         /*display: table-cell;                         //5*/
+      /*float: left;                                //2*/
+      /*position:absolute;                            //3*/
+      /*top: 0;                                       //3*/
+      /*left: 0;                                      //3*/
+    }
+      #right{
+      height: 300px;
+      background: paleturquoise ;
+      /*flex-grow: 1;                             //1*/
+      /*margin-left: 310px;                         //2*/
+      margin-left: 310px;                           //4
+      margin-top: -300px;                           //4
+          /*display: table-cell;                       //5*/
+  }
+    #container {
+        /*display: flex;                          //1*/
+         /*display: table;                          //5*/
+        /*width: 100%;                              //5*/
+    }
+</style>
+<body>
+<div id="container" >
+    <div id="left"></div>
+    <div id="right"></div>
+</div>
+</body>
+</html>
