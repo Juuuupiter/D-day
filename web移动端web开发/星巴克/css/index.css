@@ -17,26 +17,186 @@
     text-align: center ;
     line-height: 22px;
 }
-#know-more {
+.know-more {
     width:100px;
     height: 22px;
     color: white;
+}
+#main-middle-pic .know-more {
     float: right;
     margin-top: 750px;
     font-size: 18px;
 }
 #star-card {
     height: 220px;
-    background: black ;
+    background: #0f0f0f  ;
+    position:relative;
 }
-#star-card .wrap{
-    width: 1140px;
-    height: 220px;
-    background: white ;
+#star-card .wrap {
+    background:url("../img/png/rewards_bg.png") no-repeat 150px ;
 }
 #star-card-left {
     width: 260px;
     height: 220px;
-    margin-left: 200px;
-    background:url("../img/png/rewards_bg.png");
+    margin-left: 250px;
+
+    position: absolute;
 }
+#star-card-left-intro{
+    height: 80px;
+    width: 200px;
+    /*background: #00ff00 ;*/
+    margin: 70px 20px;
+    float: left;
+}
+#star-card-left-intro p{
+    color: white;
+}
+#star-card-club {
+    width: 430px;
+    height: 220px;
+    /*background: powderblue ;*/
+    margin-left: 300px;
+    position: absolute;
+}
+#star-card-club p{
+    color: white;
+}
+#star-card-club .p1{
+    margin-top: 50px;
+}
+#star-card-club .p2 {
+       font-size: 16px;
+}
+#star-card-club-button {
+    width: 430px;
+    height: 65px;
+    /*background: cornflowerblue ;*/
+    margin-top: 10px;
+}
+#star-card-club-button  .card-club-button{
+    width: 110px;
+    height: 50px;
+    border: 3px solid #a98e67;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+#star-card-club-button p{
+    color:#a98e67 ;
+    text-align: center ;
+    line-height: 50px;
+}
+#star-card-club-button .know-more {
+    line-height: 65px;
+    color: #a98e67;
+    font-size: 14px;
+}
+#phone-contact {
+    height: 220px;
+    background: #ececec ;
+    position: relative;
+}
+
+#phone-pic {
+    width: 350px;
+    height: 200px;
+    background: url("../img/png/app_device.png") no-repeat  center center;
+    display: block;
+    background-size: contain;
+    margin-top: 20px;
+    float: left;
+}
+#phone-contact-right {
+    width: 450px;
+    height: 88px;
+    /*background: blueviolet ;*/
+    float:left;
+    margin-top: 66px;
+}
+#phone-contact-right .know-more{
+    color: #a98e67;
+}
+#phone-pic-square {
+    width: 242px;
+    height: 209px;
+    /*background:peru ;*/
+    float: left;
+    margin: 10px 30px 0 60px;
+}
+#phone-contact-right p{
+    font-size: 23px;
+}
+#phone-contact-right .know-more {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+#app-download {
+    width: 130px;
+    height: 130px;
+    background: url("../img/png/app_qr_20170209.png") center center;
+    background-size: contain ;
+}
+/*.app-download-buttons-btn {*/
+    /*font-family:"icon";*/
+    /*color: #999999;*/
+    /*font-size: 17px;*/
+    /*margin-right: 8px;*/
+/*}*/
+#app-download-button{
+    width: 242px;
+    height: 76px;
+    /*background-color: #2a8c70;*/
+}
+#app-download-button p{
+    margin-top:23px ;
+    border-left: 1px solid black;
+    float: right;
+    font-size: 12px;
+}
+#moon-cake {
+    position: relative;
+}
+#moon-cake img{
+    max-width: 100%;
+}
+#TM-shop {
+    height: 760px;
+    background: pink;
+    position: relative;
+}
+#left-img ,#right-img {
+    width: 50%;
+    height: 760px;
+}
+#left-img {
+    float: left;
+}
+#right-img {
+    float: left;
+background: forestgreen ;
+}
+#left-img img{
+    height: 760px;
+    max-width: 100%;
+}
+#right-img img{
+    height: 760px;
+    max-width: 100%;
+}
+.TM-shop-letter {
+    position: absolute;
+    height: 80px;
+    width: 50%;
+    text-align: center;
+    bottom: 0;
+}
+.TM-shop-letter h2{
+    color: white;
+
+}
+.TM-shop-letter h3{
+    color: #a98e67;
+    font-size: 13px;
+}
+

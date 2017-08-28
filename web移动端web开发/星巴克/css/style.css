@@ -10,6 +10,8 @@ a{
 }
 .wrap{
     margin: 0 auto;
+    width: 1140px;
+    height: 220px;
 }
 #nav {
     width: 100%;
@@ -18,7 +20,7 @@ a{
     position: relative;
 }
 #menu-bar-menu ,#reg{
-    width: 550px;
+    width: 555px;
     height: 104px;
     /*background:orchid;*/
     float: left;
@@ -33,7 +35,7 @@ a{
     margin:30px 20px;
 }
 #menu-bar-login{
-    margin:30px 20px;
+    margin:30px 0;
 }
 #menu-bar-holder .input{
     height: 25px;
@@ -58,8 +60,18 @@ a{
 #logo img{
     width: 72px;
     height: 72px;
-    margin: 16px 94px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left:-36px;
+    margin-top: -36px;
 }
+#register {
+     width: 75px;
+     height: 46px;
+     position: absolute;
+    right: 0;
+ }
 #register span {
     float: right;
     font-size: 15px;
@@ -70,3 +82,4 @@ a{
     font-size:15px;
     color: rosybrown;
 }
+
