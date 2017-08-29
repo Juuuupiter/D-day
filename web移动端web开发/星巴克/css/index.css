@@ -199,4 +199,105 @@ background: forestgreen ;
     color: #a98e67;
     font-size: 13px;
 }
+#wsg-line {
+    height: 222px;
+    width: 100%;
+    background:#106e4b;
+    position: relative;
+}
+
+#wsg-line-container {
+    margin: 0 auto ;
+    left: 300px;
+    height: 222px;
+    width: 767px;
+    /*background: #0f0f0f;*/
+    position: absolute;
+}
+#wsg-line-container .team {
+    width: 50%;
+    height: 150px;
+    /*background: goldenrod ;*/
+    float: left;
+    display: block;
+    margin-top: 36px;
+}
+#say-star {
+    height: 100px;
+    width: 50%;
+    background: url("../img/png/wsg-title.png") no-repeat ;
+    background-size: contain;
+    float: left;
+    margin-top: 25px;
+}
+#app-down-pic {
+    height: 125px;
+    width: 125px;
+    background: url("../img/png/wsg-qrcode.png") no-repeat ;
+    float: left;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+
+#cup {
+    height: 150px;
+    width: 50%;
+    background: url("../img/png/wsg-cup.png") no-repeat ;
+    background-size: contain ;
+    float: left;
+}
+#long-word {
+    height: 100px;
+    width: 50%;
+    background: url("../img/png/wsg-wording.png ") no-repeat ;
+    background-size: contain;
+    float: left;
+    margin-top: 25px;
+}
+#white-line {
+    width: 100%;
+    height: 220px;
+    background: url("../img/png/web-bg.png");
+    position: relative;
+}
+#two-big-phone {
+    width: 408px;
+    height: 220px;
+    background: firebrick ;
+    background: url("../img/png/web-iwatch-cn.png");
+    margin-left: 100px;
+    float: left;
+}
+#intro-it {
+    width: 344px;
+    float: left;
+    margin: 35px 68px 0 68px;
+}
+#intro-it p{
+    font-size: 15px;
+}
+#intro-it .know-more {
+    font-size: 12px;
+    color: #a98e67;
+}
+#watch-download-square {
+    width: 150px;
+    height: 270px;
+    float: left;
+    margin-top: 35px;
+}
+#watch-download {
+    width: 130px;
+    height: 130px;
+    background:url("../img/png/app_qr_20170209.png") no-repeat;
+    background-size: contain ;
+
+}
+#watch-download-square p{
+    width: 130px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center ;
+}
+
 
