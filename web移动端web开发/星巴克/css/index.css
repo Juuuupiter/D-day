@@ -94,7 +94,7 @@
 }
 #phone-contact {
     height: 220px;
-    background: #ececec ;
+    background:url("../img/jpg/app_bg.gif") repeat scroll center;
     position: relative;
 }
 
@@ -299,5 +299,68 @@ background: forestgreen ;
     font-size: 15px;
     text-align: center ;
 }
+#star-buck-choose {
+    position: relative;
+    background:#f5f5f5;
+    height: 484px;
+    padding: 80px 16px ;
+}
+#star-buck-choose p:first-child {
+    font-size: 30px;
+    margin: 20px auto ;
+}
+#star-buck-choose p:nth-child(2){
+    font-size: 18px;
+    color: #8B8B8B;
+    margin-bottom: 80px;
+}
+.title-letter{
+    width: 100%;
+    text-align: center;
+}
+#collection {
+    height: 310px;
+    width: 100%;
+    /*background: darkolivegreen ;*/
+}
+#collection .collection-square{
+    width: 240px;
+    height: 280px;
+    /*background: fuchsia;*/
+    float:left;
+    margin: 15px 15px;
+}
+#collection a:first-child {
+    margin-left: 11%;
+}
+#collection .pic-box-square {
+    height: 160px;
+    /*background: darkcyan;*/
+}
+#collection .collection-square .pic1{
+    background: url("../img/png/1@2x.png.jpeg") no-repeat ;
+    background-size: contain ;
+}
+#collection .collection-square .pic2 {
+    background: url("../img/png/2@2x.png.jpeg") no-repeat ;
+    background-size: contain ;
+}
+#collection .collection-square .pic3 {
+    background: url("../img/png/3@2x.png") no-repeat ;
+    background-size: contain ;
+}
+#collection .collection-square .pic4 {
+    background: url("../img/png/4@2x.png.jpeg") no-repeat ;
+    background-size: contain ;
+}
+#collection .collection-square b{
+    display: block;
+    margin-top: 15px;
+    color: #0f0f0f;
 
-
+}
+#collection .collection-square p{
+    font-size: 14px;
+    color: #707175;
+    border-bottom: 1px solid black;
+}
