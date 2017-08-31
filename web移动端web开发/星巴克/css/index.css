@@ -37,9 +37,7 @@
 }
 #star-card-left {
     width: 260px;
-    height: 220px;
     margin-left: 250px;
-
     position: absolute;
 }
 #star-card-left-intro{
@@ -74,7 +72,7 @@
     /*background: cornflowerblue ;*/
     margin-top: 10px;
 }
-#star-card-club-button  .card-club-button{
+.card-club-button{
     width: 110px;
     height: 50px;
     border: 3px solid #a98e67;
@@ -82,7 +80,7 @@
     float: left;
     margin-right: 10px;
 }
-#star-card-club-button p{
+.card-club-button  p{
     color:#a98e67 ;
     text-align: center ;
     line-height: 50px;
@@ -353,14 +351,130 @@ background: forestgreen ;
     background: url("../img/png/4@2x.png.jpeg") no-repeat ;
     background-size: contain ;
 }
+.pic-box-square-box {
+    height: 120px;
+    width: 238px;
+    position: absolute;
+    /*background: salmon ;*/
+    border-bottom: 1px solid #707175;
+    border-left: 1px solid #707175;
+    border-right: 1px solid #707175;
+}
 #collection .collection-square b{
     display: block;
     margin-top: 15px;
     color: #0f0f0f;
+    margin-bottom: 10px;
 
 }
 #collection .collection-square p{
     font-size: 14px;
     color: #707175;
-    border-bottom: 1px solid black;
 }
+#black-coffee {
+    position: relative;
+    width: 100%;
+    height: 528px;
+    background: #060608;
+    padding: 40px 0;
+}
+#black-coffee .black-coffee-wrap {
+    height: 528px;
+}
+#black-coffee-pic {
+    width: 50%;
+    float: left;
+}
+#black-coffee-letter {
+    width: 50%;
+    float: left;
+    margin-top: 15%;
+    text-align: center ;
+}
+#black-coffee-letter h3{
+    width: 480px;
+    color: #a98e67;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+}
+#black-coffee-letter .black-coffee-p {
+    width: 480px;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 14px;
+    word-break: break-all;
+}
+#black-coffee-button {
+    margin-top: 32px;
+    height: 70px;
+}
+#black-coffee-button div:first-child{
+    margin-left: 20%;
+}
+.page-footer {
+    background: salmon ;
+    position: relative;
+    padding: 60px 0 20px ;
+}
+.page-footer .black-coffee-wrap {
+    height: 739px;
+    background: darkcyan ;
+}
+.page-footer-line {
+    height: 220px;
+    margin-bottom: 80px;
+}
+.page-footer-box {
+    float: left;
+    width: 25%;
+}
+.footer-title {
+    font-size: 18px;
+    text-align: left ;
+}
+.footer-box a{
+    text-align: left ;
+    margin-top: 10px;
+    font-size: 15px;
+    display: block;
+    font-weight: 300;
+}
+#app-pic {
+    height: 100px;
+    width: 100px;
+    background: url("../img/png/app_qr_20170209.png");
+    background-size: contain ;
+}
+.page-footer-box p{
+    width: 100px;
+    font-size: 12px;
+    text-align:center;
+}
+#footer-bottom {
+    font-size: 12px;
+    height: 70px;
+    text-align: left ;
+}
+#i-don-know {
+    width: 300px;
+}
+#footer-bottom a{
+    display: block;
+}
+#footer-bottom img{
+    height: 15px;
+    width: 15px;
+}
+#app-pic-circle {
+   float: right;
+}
+.app {
+    height: 40px;
+    width: 40px;
+    background: red ;
+    float: right;
+}
+
+
+
