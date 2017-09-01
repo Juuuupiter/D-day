@@ -28,43 +28,39 @@
     font-size: 18px;
 }
 #star-card {
-    height: 220px;
     background: #0f0f0f  ;
     position:relative;
 }
-#star-card .wrap {
-    background:url("../img/png/rewards_bg.png") no-repeat 150px ;
-}
 #star-card-left {
-    width: 260px;
-    margin-left: 250px;
+    background:url("../img/png/rewards_bg.png") no-repeat;
+    width: 1140px;
+    margin: 0 auto ;
     position: absolute;
 }
 #star-card-left-intro{
-    height: 80px;
-    width: 200px;
+    height:220px;
+    width: 50%;
     /*background: #00ff00 ;*/
-    margin: 70px 20px;
     float: left;
 }
 #star-card-left-intro p{
+    margin-top: 70px;
     color: white;
 }
 #star-card-club {
-    width: 430px;
+    width: 50%;
     height: 220px;
-    /*background: powderblue ;*/
-    margin-left: 300px;
-    position: absolute;
-}
-#star-card-club p{
-    color: white;
+    float:left;
 }
 #star-card-club .p1{
+    color: white;
+    /*text-align: left ;*/
     margin-top: 50px;
 }
 #star-card-club .p2 {
-       font-size: 16px;
+    font-size: 16px;
+    color: white;
+    /*text-align: left ;*/
 }
 #star-card-club-button {
     width: 430px;
@@ -413,17 +409,22 @@ background: forestgreen ;
     margin-left: 20%;
 }
 .page-footer {
-    background: salmon ;
+    background: #292929 ;
     position: relative;
     padding: 60px 0 20px ;
 }
 .page-footer .black-coffee-wrap {
     height: 739px;
-    background: darkcyan ;
 }
 .page-footer-line {
     height: 220px;
     margin-bottom: 80px;
+}
+.page-footer-line a{
+    color: #707070
+}
+.page-footer-line h5{
+    color: white;
 }
 .page-footer-box {
     float: left;
@@ -453,11 +454,12 @@ background: forestgreen ;
 }
 #footer-bottom {
     font-size: 12px;
-    height: 70px;
+    height: 50px;
     text-align: left ;
 }
 #i-don-know {
-    width: 300px;
+    float: left;
+    color: #A3A3A3;
 }
 #footer-bottom a{
     display: block;
@@ -467,13 +469,24 @@ background: forestgreen ;
     width: 15px;
 }
 #app-pic-circle {
-   float: right;
+    float:right;
+    /*background: burlywood ;*/
+    margin-top: 10px;
+    width: 200px;
 }
 .app {
     height: 40px;
     width: 40px;
-    background: red ;
-    float: right;
+    float: left;
+    margin-right: 20px;
+}
+#app-pic-circle .app:first-child{
+    background: url("../img/svg/weibo.svg") no-repeat;
+    background-size: contain ;
+}
+#app-pic-circle .app:last-child {
+    background: url("../img/svg/wechat.svg") no-repeat ;
+    background-size: contain ;
 }
 
 

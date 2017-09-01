@@ -1,0 +1,115 @@
+@media(max-width:1381px){
+    .wrap {
+        width: 100%;
+    }
+    #nav {
+        width: 100%;
+    }
+    #menu-bar-menu {
+        width: 39%;
+    }
+    #menu-bar-holder {
+        width: 39%
+    }
+    #logo{
+        width: 22%;
+    }
+    #reg{
+        width: 39%
+    }
+    #menu-bar-login {
+        width: 39%;
+    }
+    #register {
+        width: 39%;
+    }
+    #main-middle-pic {
+        width: 100%;
+        height: 0;
+        padding-top: 57.2%;
+    }
+    #star-card {
+        width: 100%;
+    }
+    .wrap {
+        width: 100%;
+    }
+    #star-card-left {
+        width: 100%;
+    }
+    #star-card-left-intro ,#star-card-club {
+        width: 50%;
+    }
+    #star-card-club .p1,.p2{
+      text-align: left ;
+    }
+}
+
+@media(max-width:980px) {
+    #nav {
+        width: 100%;
+    }
+
+    #menu-bar-menu {
+        width: 39%;
+    }
+
+    #menu-bar-holder {
+        width: 39%
+    }
+
+    #logo {
+        width: 22%;
+    }
+
+    #reg {
+        width: 39%
+    }
+
+    #menu-bar-login {
+        width: 39%;
+    }
+
+    #register {
+        width: 39%;
+    }
+    #register span{
+        font-size: 10px;
+    }
+    #register a{
+        font-size: 10px;
+    }
+    #main-middle-pic {
+        background-image: url(../img/jpg/xingbingle2.jpg )
+    }
+}
+@media (max-width: 935px) {
+    #star-card {
+        width: 100%;
+        height: 440px;
+    }
+    .wrap {
+        width: 100%;
+        height: 440px;
+    }
+    #star-card-left {
+        width: 100%;
+        height: 440px;
+    }
+    #star-card-left-intro ,#star-card-club {
+        width: 100%;
+    }
+    #star-card-club .p1,.p2{
+        margin-top: 0;
+     text-align: center ;
+    }
+    #star-card-club-button {
+        height: 170px;
+        margin: 0 auto ;
+    }
+    #star-card-club-button .card-club-button {
+        width: 100%;
+        height: 35px;
+    }
+    #star-card-club-button p
+}
