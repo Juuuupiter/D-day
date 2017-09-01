@@ -54,18 +54,17 @@
 }
 #star-card-club .p1{
     color: white;
-    /*text-align: left ;*/
     margin-top: 50px;
+    text-align: left ;
 }
 #star-card-club .p2 {
     font-size: 16px;
     color: white;
-    /*text-align: left ;*/
+    text-align: left ;
 }
 #star-card-club-button {
     width: 430px;
     height: 65px;
-    /*background: cornflowerblue ;*/
     margin-top: 10px;
 }
 .card-club-button{
@@ -155,27 +154,19 @@
     max-width: 100%;
 }
 #TM-shop {
-    height: 760px;
+    height: 560px;
     background: pink;
     position: relative;
 }
 #left-img ,#right-img {
     width: 50%;
-    height: 760px;
-}
-#left-img {
     float: left;
-}
-#right-img {
-    float: left;
-background: forestgreen ;
 }
 #left-img img{
-    height: 760px;
     max-width: 100%;
 }
 #right-img img{
-    height: 760px;
+    width: 100%;
     max-width: 100%;
 }
 .TM-shop-letter {

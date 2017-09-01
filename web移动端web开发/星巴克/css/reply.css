@@ -1,4 +1,4 @@
-@media(max-width:1381px){
+@media(max-width){
     .wrap {
         width: 100%;
     }
@@ -43,6 +43,19 @@
     #star-card-club .p1,.p2{
       text-align: left ;
     }
+    #tm-shop{
+        width: 100%;
+    }
+    #left-img ,#right-img {
+        width: 50%;
+    }
+    #TM-shop {
+        width: 100%;
+    }
+    #TM-shop img{
+        width: 100%;
+        display: block;
+    }
 }
 
 @media(max-width:980px) {
@@ -82,6 +95,35 @@
     #main-middle-pic {
         background-image: url(../img/jpg/xingbingle2.jpg )
     }
+    #star-card {
+        width: 100%;
+    }
+    .wrap {
+        width: 100%;
+    }
+    #star-card-left {
+        width: 100%;
+    }
+    #star-card-left-intro ,#star-card-club {
+        width: 50%;
+    }
+    #star-card-club .p1,.p2{
+        text-align: left ;
+    }
+    #tm-shop{
+        width: 100%;
+    }
+    #left-img ,#right-img {
+        width: 50%;
+    }
+    #TM-shop {
+        width: 100%;
+        /*height: 0;*/
+    }
+    #TM-shop img{
+        width: 100%;
+        display: block;
+    }
 }
 @media (max-width: 935px) {
     #star-card {
@@ -99,17 +141,25 @@
     #star-card-left-intro ,#star-card-club {
         width: 100%;
     }
-    #star-card-club .p1,.p2{
+    #star-card-club .p1{
         margin-top: 0;
      text-align: center ;
     }
+    #star-card-club .p2{
+        margin-top: 0;
+        text-align: center ;
+    }
     #star-card-club-button {
+        width: 50%;
         height: 170px;
         margin: 0 auto ;
     }
     #star-card-club-button .card-club-button {
         width: 100%;
         height: 35px;
+        margin-top: 10px;
     }
-    #star-card-club-button p
+    #star-card-club-button p{
+        line-height: 35px;
+    }
 }
