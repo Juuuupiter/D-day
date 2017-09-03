@@ -34,7 +34,6 @@
 #star-card-left {
     background:url("../img/png/rewards_bg.png") no-repeat;
     width: 1140px;
-    margin: 0 auto ;
     position: absolute;
 }
 #star-card-left-intro{
@@ -101,7 +100,7 @@
     float: left;
 }
 #phone-contact-right {
-    width: 450px;
+    width: 400px;
     height: 88px;
     /*background: blueviolet ;*/
     float:left;
@@ -115,14 +114,16 @@
     height: 209px;
     /*background:peru ;*/
     float: left;
-    margin: 10px 30px 0 60px;
+    margin: 10px 30px 0 30px;
 }
 #phone-contact-right p{
     font-size: 23px;
+    text-align: left ;
 }
 #phone-contact-right .know-more {
     font-size: 14px;
     margin-bottom: 0;
+    float: left;
 }
 #app-download {
     width: 130px;
@@ -137,7 +138,6 @@
     /*margin-right: 8px;*/
 /*}*/
 #app-download-button{
-    width: 242px;
     height: 76px;
     /*background-color: #2a8c70;*/
 }
@@ -152,6 +152,7 @@
 }
 #moon-cake img{
     max-width: 100%;
+
 }
 #TM-shop {
     height: 560px;
