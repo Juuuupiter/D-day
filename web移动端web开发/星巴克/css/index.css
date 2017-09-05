@@ -145,17 +145,19 @@
     font-size: 12px;
 }
 #moon-cake {
-    /*position: relative;*/
+    position: relative;
     width: 100%;
     /*overflow: hidden;*/
     /*display: block;*/
-    height: 315px;
-    background: url("../img/jpg/banner-home.jpg") no-repeat;
-    background-size: cover;
+    /*height: 315px;*/
+    /*background: url("../img/jpg/banner-home.jpg") no-repeat;*/
+    /*background-size: cover;*/
 
 }
 #moon-cake img{
-
+    /*margin-top: -300px;*/
+        display: block;
+         width: 100%;
 }
 #TM-shop {
     height: 690px;
@@ -167,7 +169,7 @@
     position: absolute;
     width: 50%;
     /*height: 690px;*/
-    float: right;
+    /*float: right;*/
     background: darkgoldenrod ;
     /*display:block;*/
 }
