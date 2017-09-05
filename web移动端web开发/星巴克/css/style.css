@@ -27,13 +27,13 @@ a{
     position: relative;
 }
 #menu-bar-menu ,#reg{
-    width: 555px;
+    width: 40%;
     height: 104px;
     /*background:orchid;*/
     float: left;
 }
 #menu-bar-holder ,#menu-bar-login{
-    width: 530px;
+    width: 40%;
     height: 46px;
     /*background: #2a8c70 ;*/
     position: absolute;
@@ -59,7 +59,7 @@ a{
     line-height: 21px;
 }
 #logo {
-    width: 260px;
+    width: 20%;
     height: 104px;
     /*background:orange;*/
     float: left;

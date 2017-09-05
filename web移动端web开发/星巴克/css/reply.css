@@ -1,4 +1,4 @@
-@media(max-width){
+@media(max-width:1500px ){
     .wrap {
         width: 100%;
     }
@@ -43,9 +43,6 @@
     #star-card-club .p1,.p2{
         text-align: left ;
     }
-    #tm-shop{
-        width: 100%;
-    }
     #left-img ,#right-img {
         width: 50%;
     }
@@ -56,7 +53,38 @@
         width: 100%;
         display: block;
     }
+    #phone-contact {
+        width: 100%;
+    }
+    #phone-contact .wrap {
+        width: 100%;
+    }
+    #phone-pic {
+        width: 23%;
+    }
+    #phone-pic-square{
+        width: 20%;
+    }
+    #middle-phone-pic {
+        width: 100%;
+    }
+    #app-download {
+        width: 100%;
+        height: 0;
+        padding-top: 57%;
+    }
+    #app-download-button {
+        width: 20%;
+        float: right;
+    }
+    #phone-contact-right {
+        width: 45%;
+    }
+
 }
+
+
+
 
 @media(max-width:980px) {
     #nav {
@@ -93,7 +121,10 @@
         font-size: 10px;
     }
     #main-middle-pic {
-        background-image: url(../img/jpg/xingbingle2.jpg )
+        background-image: url(../img/jpg/xingbingle2.jpg);
+        width: 100%;
+        height: 500px;
+        background-size: cover ;
     }
     #star-card {
         width: 100%;
@@ -110,9 +141,6 @@
     #star-card-club .p1,.p2{
         text-align: left ;
     }
-    #tm-shop{
-        width: 100%;
-    }
     #left-img ,#right-img {
         width: 50%;
     }
@@ -125,41 +153,56 @@
         display: block;
     }
 }
-@media (max-width: 935px) {
+
+
+
+
+
+
+@media (max-width: 767px) {
     #star-card {
         width: 100%;
         height: 440px;
     }
+
     .wrap {
         width: 100%;
         height: 440px;
     }
+
     #star-card-left {
         width: 100%;
         height: 440px;
     }
-    #star-card-left-intro ,#star-card-club {
+
+    #star-card-left-intro, #star-card-club {
         width: 100%;
     }
-    #star-card-club .p1{
+
+    #star-card-club .p1 {
         margin-top: 0;
-        text-align: center ;
+        text-align: center;
     }
-    #star-card-club .p2{
+
+    #star-card-club .p2 {
         margin-top: 0;
-        text-align: center ;
+        text-align: center;
     }
+
     #star-card-club-button {
         width: 50%;
         height: 170px;
-        margin: 0 auto ;
+        margin: 0 auto;
     }
+
     #star-card-club-button .card-club-button {
         width: 100%;
         height: 35px;
         margin-top: 10px;
     }
-    #star-card-club-button p{
+
+    #star-card-club-button p {
         line-height: 35px;
     }
+
 }
