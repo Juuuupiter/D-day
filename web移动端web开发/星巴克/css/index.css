@@ -161,22 +161,30 @@
 }
 
 #TM-shop  img{
-    height: 690px;
     width: 50%;
     display: block;
     float: left;
 }
-#TM-shop .TM-shop-letter {
+#TM-shop .TM-shop-letter1 {
     position: absolute;
     height: 80px;
     width: 50%;
     text-align: center;
     bottom: 0;
+
 }
-.TM-shop-letter h2{
+#TM-shop .TM-shop-letter2 {
+    position: absolute;
+    height: 80px;
+    width: 50%;
+    text-align: center;
+    bottom: 0;
+    right:0;
+}
+#TM-shop h2{
     color: white;
 }
-.TM-shop-letter h3{
+#TM-shop h3{
     color: #a98e67;
     font-size: 13px;
 }
@@ -188,8 +196,7 @@
 }
 
 #wsg-line-container {
-    margin: 0 auto ;
-    left: 300px;
+    left: 25%;
     height: 222px;
     width: 767px;
     /*background: #0f0f0f;*/
@@ -213,11 +220,10 @@
 }
 #app-down-pic {
     height: 125px;
-    width: 125px;
-    background: url("../img/png/wsg-qrcode.png") no-repeat ;
+    width: 50%;
+    background: url("../img/png/wsg-qrcode.png") no-repeat center ;
     float: left;
-    margin-left: 30px;
-    margin-top: 12px;
+
 }
 
 #cup {
@@ -242,15 +248,14 @@
     position: relative;
 }
 #two-big-phone {
-    width: 408px;
+    width: 35%;
     height: 220px;
     background: firebrick ;
-    background: url("../img/png/web-iwatch-cn.png");
-    margin-left: 100px;
+    background: url("../img/png/web-iwatch-cn.png") no-repeat ;
     float: left;
 }
 #intro-it {
-    width: 344px;
+    width: 30%;
     float: left;
     margin: 35px 68px 0 68px;
 }
@@ -262,7 +267,7 @@
     color: #a98e67;
 }
 #watch-download-square {
-    width: 150px;
+    width: 20%;
     height: 270px;
     float: left;
     margin-top: 35px;
