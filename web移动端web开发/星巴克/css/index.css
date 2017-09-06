@@ -3,16 +3,17 @@
     height: 790px;
     background: url("../img/jpg/xingbingle.jpg") no-repeat center center;
     background-size: cover ;
-
+    position: relative;
 }
 
 #ad {
     width: 34px;
     height: 22px;
     background: black;
+    position: absolute;
+    right: 20px;
+    top: 30px;
     color: white;
-    float: right;
-    margin-right: 20px;
     font-size: 13px;
     text-align: center ;
     line-height: 22px;
@@ -21,11 +22,15 @@
     width:100px;
     height: 22px;
     color: white;
+    /*position: absolute;*/
+    /*right: 20px;*/
+    bottom: 30px;
 }
 #main-middle-pic .know-more {
     float: right;
-    margin-top: 750px;
     font-size: 18px;
+    right: 20px;
+    position: absolute;
 }
 #star-card {
     background: #0f0f0f  ;
@@ -80,7 +85,6 @@
     line-height: 50px;
 }
 #star-card-club-button .know-more {
-    line-height: 65px;
     color: #a98e67;
     font-size: 14px;
 }
@@ -106,11 +110,14 @@
     width: 45%;
     height: 88px;
     margin-top: 60px;
-    position: absolute;
-    right: 0;
+    /*position: absolute;*/
+    float: left;
 }
 #phone-contact-right .know-more{
     color: #a98e67;
+    font-size: 14px;
+    float: left;
+
 }
 #phone-pic-square {
     width: 20%;
@@ -123,9 +130,12 @@
     font-size: 23px;
     text-align: left ;
 }
-#phone-contact-right .know-more {
-    font-size: 14px;
-    margin-bottom: 50px;
+#moon-cake {
+    width: 100%;
+}
+#moon-cake img{
+    width: 100%;
+    display: block;
 }
 #app-download {
     width: 130px;
@@ -142,53 +152,29 @@
     float: right;
     font-size: 12px;
 }
-#moon-cake {
-    position: relative;
-    width: 100%;
-}
-#moon-cake img{
-        display: block;
-         width: 100%;
-}
+
 #TM-shop {
-    height: 690px;
     width: 100%;
     background: pink;
     position: relative;
+    overflow: hidden;
 }
-#left-img {
-    position: absolute;
+
+#TM-shop  img{
+    height: 690px;
     width: 50%;
-    /*height: 690px;*/
-    /*float: right;*/
-    background: darkgoldenrod ;
-    /*display:block;*/
-}
-#right-img{
-    margin-left: 50%;
-    position: absolute;
-    /*height: 690px;*/
-    width: 50%;
-    background: palegreen ;
-}
-#left-img img{
-    /*height: 690px;*/
-    width: 100%;
+    display: block;
     float: left;
-}
-#right-img img{
-    width: 100%;
-   float: right;
 }
 #TM-shop .TM-shop-letter {
     position: absolute;
     height: 80px;
-    margin-left: 35%;
+    width: 50%;
+    text-align: center;
     bottom: 0;
 }
 .TM-shop-letter h2{
     color: white;
-
 }
 .TM-shop-letter h3{
     color: #a98e67;
