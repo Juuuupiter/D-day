@@ -259,6 +259,13 @@
     float: left;
     margin: 35px 68px 0 68px;
 }
+#green-button {
+    height: 70px;
+    width: 200px;
+    background: url("../img/svg/udp-starbucks-cn.svg ") no-repeat ;
+    margin: 0 auto ;
+    display: none;
+}
 #intro-it p{
     font-size: 15px;
 }
