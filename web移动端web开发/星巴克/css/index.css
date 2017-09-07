@@ -406,13 +406,10 @@
     width: 25%;
     margin-left: 10%;
 }
-.page-footer {
+#page-footer {
     background: #292929 ;
     position: relative;
     padding: 60px 0 20px ;
-}
-.page-footer .black-coffee-wrap {
-    height: 739px;
 }
 .page-footer-line {
     height: 220px;

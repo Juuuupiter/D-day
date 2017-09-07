@@ -130,6 +130,14 @@
     #black-coffee-button {
         width: 100%;
     }
+
+    #page-footer {
+        width: 100%;
+    }
+    #page-footer .black-coffee-wrap{
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 1200px) {
