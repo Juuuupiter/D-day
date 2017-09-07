@@ -86,7 +86,6 @@
     }
     #star-buck-choose {
         width: 100%;
-        height: 796px;
     }
     #star-buck-choose .title-letter {
         width: 100%;
@@ -104,6 +103,32 @@
     }
     .pic-box-square-box {
         width: 19.5%;
+    }
+    #black-coffee {
+        width: 100%;
+    }
+    #black-coffee .black-coffee-wrap {
+        width: 100%;
+    }
+    #black-coffee-pic {
+        width: 50%;
+    }
+    #black-coffee-pic img{
+        width: 100%;
+    }
+    #black-coffee-letter {
+        width: 50%;
+    }
+    #black-coffee-letter h3{
+        margin: 0 auto ;
+        width: 100%;
+    }
+    #black-coffee-letter p{
+        margin: 0 auto ;
+        width: 100%;
+    }
+    #black-coffee-button {
+        width: 100%;
     }
 }
 
@@ -158,6 +183,10 @@
     }
     .pic-box-square-box {
         width: 24%;
+    }
+    #black-coffee-button .card-club-button {
+        width: 60%;
+        margin:10px  20% ;
     }
 }
 
@@ -368,6 +397,40 @@
     }
     #long-word {
         width: 50%;
+    }
+
+
+    #black-coffee {
+        width: 100%;
+        height: 900px;
+    }
+    #black-coffee .black-coffee-wrap {
+        width: 100%;
+    }
+    #black-coffee-pic {
+        width: 100%;
+    }
+    #black-coffee-pic img{
+        width: 80%;
+    }
+    #black-coffee-letter {
+        width: 100%;
+        margin-top: 0;
+    }
+    #black-coffee-letter h3{
+        margin: 0 auto ;
+        width: 100%;
+    }
+    #black-coffee-letter p{
+        margin: 0 auto ;
+        width: 100%;
+    }
+    #black-coffee-button {
+        width: 100%;
+    }
+    #black-coffee-button .card-club-button {
+        width: 60%;
+        margin:10px  20% ;
     }
 }
 

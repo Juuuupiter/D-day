@@ -385,25 +385,26 @@
     text-align: center ;
 }
 #black-coffee-letter h3{
-    width: 480px;
+    width: 100%;
     color: #a98e67;
-    font-size: 12px;
-    margin-top: 20px;
+    font-size: 18px;
     margin-bottom: 13px;
 }
 #black-coffee-letter .black-coffee-p {
-    width: 480px;
+    width: 100%;
     font-size: 18px;
     color: #707070;
     margin-bottom: 14px;
     word-break: break-all;
 }
 #black-coffee-button {
+    width: 100%;
     margin-top: 32px;
     height: 70px;
 }
-#black-coffee-button div:first-child{
-    margin-left: 20%;
+#black-coffee-button .card-club-button {
+    width: 25%;
+    margin-left: 10%;
 }
 .page-footer {
     background: #292929 ;
