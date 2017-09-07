@@ -313,18 +313,15 @@
 }
 #collection {
     height: 310px;
-    width: 100%;
+    width: 80%;
     /*background: darkolivegreen ;*/
+    margin: 0 auto ;
 }
 #collection .collection-square{
-    width: 240px;
+    width: 20%;
     height: 280px;
-    /*background: fuchsia;*/
     float:left;
-    margin: 15px 15px;
-}
-#collection a:first-child {
-    margin-left: 11%;
+    margin: 15px 25px ;
 }
 #collection .pic-box-square {
     height: 160px;
@@ -332,23 +329,24 @@
 }
 #collection .collection-square .pic1{
     background: url("../img/png/1@2x.png.jpeg") no-repeat ;
-    background-size: contain ;
+    background-size: cover ;
+    width: 100%;
 }
 #collection .collection-square .pic2 {
     background: url("../img/png/2@2x.png.jpeg") no-repeat ;
-    background-size: contain ;
+    background-size: cover  ;
 }
 #collection .collection-square .pic3 {
     background: url("../img/png/3@2x.png") no-repeat ;
-    background-size: contain ;
+    background-size: cover ;
 }
 #collection .collection-square .pic4 {
     background: url("../img/png/4@2x.png.jpeg") no-repeat ;
-    background-size: contain ;
+    background-size: cover ;
 }
 .pic-box-square-box {
     height: 120px;
-    width: 238px;
+    width: 15.5%;
     position: absolute;
     /*background: salmon ;*/
     border-bottom: 1px solid #707175;
