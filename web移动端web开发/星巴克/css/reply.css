@@ -271,6 +271,15 @@
         width: 100%;
         display: block;
     }
+    #TM-shop .TM-shop-letter1 {
+        width: 100%;
+        margin-bottom: 100%;
+    }
+    #TM-shop .TM-shop-letter2 {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
 
 }
 
