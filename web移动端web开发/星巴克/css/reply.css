@@ -114,7 +114,7 @@
         width: 50%;
     }
     #black-coffee-pic img{
-        width: 100%;
+        width: 80%;
     }
     #black-coffee-letter {
         width: 50%;
@@ -131,10 +131,14 @@
         width: 100%;
     }
 
+
     #page-footer {
         width: 100%;
     }
     #page-footer .black-coffee-wrap{
+        width: 100%;
+    }
+    #page-footer .page-footer-line {
         width: 100%;
     }
 

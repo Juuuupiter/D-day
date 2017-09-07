@@ -367,7 +367,7 @@
 #black-coffee {
     position: relative;
     width: 100%;
-    height: 528px;
+    height: 550px;
     background: #060608;
     padding: 40px 0;
 }
@@ -378,11 +378,15 @@
     width: 50%;
     float: left;
 }
+
 #black-coffee-letter {
     width: 50%;
     float: left;
     margin-top: 15%;
     text-align: center ;
+}
+#black-coffee-letter img{
+    margin-top: 0;
 }
 #black-coffee-letter h3{
     width: 100%;
@@ -424,6 +428,7 @@
 .page-footer-box {
     float: left;
     width: 25%;
+    height: 220px;
 }
 .footer-title {
     font-size: 18px;
