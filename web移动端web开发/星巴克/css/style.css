@@ -11,6 +11,11 @@ ul ol{
 a{
     text-decoration: none ;
 }
+.selected{
+    background: #a98e67;
+    color: white;
+    z-index: 2;
+}
 .wrap{
     margin: 0 auto;
     width: 1140px;

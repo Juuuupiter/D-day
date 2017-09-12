@@ -80,9 +80,12 @@
     margin-right: 10px;
 }
 .card-club-button  p{
-    color:#a98e67 ;
+    height: 50px;
     text-align: center ;
     line-height: 50px;
+}
+.card-club-button .color{
+    color:#a98e67 ;
 }
 #star-card-club-button .know-more {
     color: #a98e67;
