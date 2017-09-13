@@ -418,6 +418,9 @@
     position: relative;
     padding: 60px 0 20px ;
 }
+#reply-line {
+    display: none;
+}
 .page-footer-line {
     height: 220px;
     margin-bottom: 80px;

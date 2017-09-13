@@ -423,7 +423,7 @@
 
     #black-coffee {
         width: 100%;
-        height: 900px;
+        height: 800px;
     }
     #black-coffee .black-coffee-wrap {
         width: 100%;
@@ -452,6 +452,12 @@
     #black-coffee-button .card-club-button {
         width: 60%;
         margin:10px  20% ;
+    }
+    .page-footer-line {
+        display: none;
+    }
+    #reply-line {
+        display: block;
     }
 }
 
