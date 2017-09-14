@@ -14,6 +14,7 @@
     <script src="js/jquery-1.11.2.js"></script>
     <script src="css/jquery.mobile-1.4.5.min.js"></script>
 </head>
+
 <body>
       <div id="nav">
           <div id="menu-bar-menu">
@@ -180,17 +181,69 @@
 
        </div>
        <div id="page-footer">
-           <div id="reply-line">
-               <ul data-role="listview" data-theme="b">
-                   <li><a href="#">最新资讯</a></li>
-                   <li><a href="#">菜单</a></li>
-                   <li><a href="#">星巴克</a></li>
-                   <li><a href="#">星巴克礼品卡</a></li>
-                   <li><a href="#">关于星巴克</a></li>
-                   <li><a href="#">快捷链接</a></li>
-                   <li><a href="#">常见问题</a></li>
-               </ul>
-           </div>
+               <div id="reply-line"  data-role="collapsible-set"
+                    data-inset="false" data-theme="b"
+                    data-expanded-icon="arrow-u" data-collapsed-icon="arrow-d">
+                   <div data-role="collapsible">
+                       <h1>最新资讯</h1>
+                       <p> 当季新品</p>
+                       <p> 星巴克月饼</p>
+                       <p> 气致™冷萃咖啡</p>
+                       <p> 冷萃冰咖啡 </p>
+                       <p>星巴克ORIGAMI™</p>
+                       <p> 星巴克焕新食</p>
+                   </div>
+                   <div data-role="collapsible">
+                       <h1>菜单</h1>
+                       <p>饮品</p>
+                       <p>星巴克美食</p>
+                       <p> 星巴克咖啡</p>
+                       <p> 星巴克VIA® 免煮咖啡</p>
+                        <p> 茶瓦纳™</p>
+                   </div>
+                   <div data-role="collapsible">
+                       <h1>星享卡</h1>
+                       <p>登录账户</p>
+                       <p>注册星享卡</p>
+                       <p>忘记密码</p>
+                       <p>报失星享卡</p>
+                       <p>了解星享卡</p>
+                       <p>购买星享卡</p>
+
+                   </div>
+                   <div data-role="collapsible">
+                       <h1>星巴克礼品卡</h1>
+                       <p>管理星礼卡</p>
+                       <p>申请发票</p>
+                       <p>了解星礼卡</p>
+                        <p>购买星礼卡</p>
+                   </div>
+                   <div data-role="collapsible">
+                       <h1>关于星巴克</h1>
+                       <p>企业新闻</p>
+                       <p>我们的使命和价值观</p>
+                       <p>星巴克责任</p>
+                       <p>工作在星巴克中国</p>
+                       <p>加入星巴克</p>
+                       <p>星巴克在中国</p>
+                        <p>历史回顾</p>
+                   </div>
+                   <div data-role="collapsible">
+                       <h1>快捷链接</h1>
+                       <p>天猫旗舰店</p>
+                       <p>星巴克门店</p>
+                       <p> 联系星巴克</p>
+                        <p>下载手机应用</p>
+                   </div>
+                   <div data-role="collapsible">
+                       <h1>常见问题</h1>
+                       <p>星享卡</p>
+                       <p>星礼卡</p>
+                       <p>移动应用</p>
+                       <p>电子发票</p>
+                        <p>星巴克中国</p>
+                   </div>
+               </div>
            <div class="black-coffee-wrap">
 
                <div class="page-footer-line">
@@ -283,7 +336,7 @@
                </div>
                </div>
            </div>
-
+       </div>
 
 
 <!--<script src="js/jquery-1.12.4.min.js" ></script>-->

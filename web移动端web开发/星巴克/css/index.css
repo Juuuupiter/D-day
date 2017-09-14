@@ -420,6 +420,14 @@
 }
 #reply-line {
     display: none;
+    width: 98%;
+    margin: 0 auto ;
+
+}
+#reply-line p{
+    font-size: 15px;
+    text-align: left ;
+    margin-top: 20px;
 }
 .page-footer-line {
     height: 220px;
