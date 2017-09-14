@@ -5,6 +5,7 @@
     <title>Title</title>
     <link rel="stylesheet" href="星巴克/css/jquery.mobile-1.4.5.min.css">
     <style>
+
         .lalala{
             height: 100px;
             width: 100px;
@@ -17,6 +18,9 @@
         /*}*/
         .selected{
             background: #00b51d;
+        }
+        .dddd h1 {
+
         }
     </style>
     <script src="星巴克/js/jquery-1.11.2.js"></script>
@@ -35,7 +39,7 @@
     <li><a href="#">列表项</a></li>
 </ol>
 
-<div data-role="collapsible-set">
+
     <div data-role="collapsible">
         <h1>点击我 - 我可以折叠！</h1>
         <p>我是被展开的内容。</p>
@@ -44,22 +48,28 @@
         <h1>点击我 - 我可以折叠！</h1>
         <p>我是被展开的内容。</p>
     </div>
-</div>
+
 
 
 <script>
+//    var aH = document.getElementsByTagName ('h1');
+//    for(var j=0;j<aH.length;j++){
+//        aH[j].onclick=function () {
+//            this.className = 'selected';
+//        }
+//    }
+
     var odiv = document.getElementById ('lalala');
     var aLi = odiv.children;
 
     for(var i=0; i<aLi.length; i++){
         aLi[i].index = i;
-        aLi[i].onmouseover  = function () {
+        aLi[i].onclick  = function () {
             for(var i=0; i<aLi.length; i++){
                 aLi[i].className = '';
             }
             this.className = 'selected';
-
-        };
+        }
     }
 </script>
 </body>
