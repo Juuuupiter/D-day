@@ -22,6 +22,10 @@ for(var i=0; i<ap.length; i++){
     }
 }
 //
-// var oReply = document .getElementById ('reply-line');
-// var oH = oReply .getElementsByTagName ('h1');
-// for(var j=0;j<oH.length ;)
+var oReply = document .getElementById ('reply-line');
+var aH = oReply .getElementsByTagName ('h1');
+for(var j=0;j<aH.length;j++){
+    aH[j].onclick=function () {
+        this.style.color = '#a98e67';
+    }
+}
