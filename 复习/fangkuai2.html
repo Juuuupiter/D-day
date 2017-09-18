@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul{
+            list-style: none ;
+        }
+        .square,.square::after{
+            height: 80px;
+            width: 200px;
+            float: left;
+        }
+        .square {
+            background:palevioletred ;
+            margin-right: 50px;
+            margin-top: 20px;
+        }
+        .square::after {
+            content: "";
+            background:border-box;
+            margin-left: 25px;
+            border-right: 1px solid black;
+        }
+
+        .square:nth-child(5n)::after{
+            border-right: none;
+        }
+        .square:last-child::after{
+            border-right: none;
+        }
+    </style>
+</head>
+<body>
+      <ul>
+          <li class="square"></li>
+          <li class="square"></li>
+          <li class="square"></li>
+          <li class="square"></li>
+          <li class="square"></li>
+          <li class="square"></li>
+          <li class="square"></li>
+          <li class="square"></li>
+      </ul>
+</body>
+</html>
