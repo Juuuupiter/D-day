@@ -1,0 +1,9 @@
+@media (max-width: 800px ) {
+    #nav-left img{
+        height: 28px;
+        width: 28px;
+        float: left;
+        margin-top: 21px;
+        margin-left: 5%;
+    }
+}

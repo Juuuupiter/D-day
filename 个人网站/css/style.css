@@ -18,22 +18,36 @@ a{
 #nav-left {
     width: 35%;
     height: 70px;
-    background: firebrick ;
+    /*background: firebrick ;*/
     float: left;
+}
+
+#nav-left img{
+    height: 40%;
+    width: 7.8%;
+    float: left;
+    margin-top: 21px;
+    margin-left: 5%;
 }
 #nav-middle {
     width: 30%;
     height: 70px;
-    background: darkgoldenrod ;
     float: left;
-    background: url(../img/jpeg/jupiter.jpg) no-repeat center center;
+}
+#nav-middle .logo{
+    width: 50%;
+    height: 69px;
+    margin: 0 auto ;
+    background: url(../img/ps/logo.png) no-repeat center center;
+    background-size: contain ;
 }
 #nav-right  {
     width: 35%;
     height: 70px;
-    background: firebrick ;
+    /*background: firebrick ;*/
     float: left;
 }
+
 
 
 
