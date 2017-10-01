@@ -4,6 +4,9 @@
     width: 80%;
     margin: 100px 10% ;
 }
+#center h1{
+    color: white;
+}
 #cloud {
     position: absolute;
     width: 100%;
