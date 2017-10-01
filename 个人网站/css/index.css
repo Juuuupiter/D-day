@@ -1,13 +1,14 @@
-#middle-intro {
-    width: 100%;
-    height: 400px;
-    background: salmon ;
-    margin: 0 auto ;
-    background: url("../img/jpeg/cloudd.png") no-repeat center center ;
-    background-size: contain  ;
+#center {
+    position: absolute;
+    height: 333px;
+    width: 80%;
+    background: seagreen ;
+    margin: 100px 10% ;
 }
-/*#cloud {*/
-    /*width: 100%;*/
-    /*height: 0px;*/
-    /*background: url("../img/jpeg/cloudd.png");*/
-/*}*/
+#cloud {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background: url("../img/jpeg/cloudd.png") no-repeat  center center;
+    margin-top: 433px;
+}
