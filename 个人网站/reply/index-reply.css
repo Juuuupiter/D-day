@@ -1,9 +1,31 @@
-@media (max-width: 800px ) {
-    #nav-left img{
-        height: 28px;
-        width: 28px;
-        float: left;
-        margin-top: 21px;
+@media (max-width: 1265px ) {
+    #nav-left li{
         margin-left: 5%;
+    }
+}
+@media (max-width: 1000px) {
+    #nav-left ul{
+        margin-left: 15px;
+    }
+    #nav-left li{
+        font-size: 15px;
+    }
+}
+@media (max-width: 700px) {
+    #nav-middle {
+        height: 70px;
+        float: left;
+        width: 15%;
+    }
+    #nav-left {
+        width: 42.5%;
+    }
+    #nav-left li {
+        display: none;
+    }
+    #nav-left img{
+        display: block;
+        width: 23%;
+        height: 30px;
     }
 }

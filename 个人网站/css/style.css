@@ -27,30 +27,7 @@ a{
     border-radius: 50px ;
     margin: 15px  10%;
 }
-#nav-left {
-    width: 35%;
-    height: 70px;
-    /*background: firebrick ;*/
-    float: left;
-}
-#nav-middle {
-    width: 30%;
-    height: 70px;
-    float: left;
-}
-#nav-middle .logo{
-    width: 50%;
-    height: 69px;
-    margin: 0 auto ;
-    background: url(../img/ps/logo.png) no-repeat center center;
-    background-size: contain ;
-}
-#nav-right  {
-    width: 35%;
-    height: 70px;
-    /*background: firebrick ;*/
-    float: left;
-}
+
 
 
 
