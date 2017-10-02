@@ -49,3 +49,18 @@
     /*background: firebrick ;*/
     float: left;
 }
+
+#about-me {
+    width: 100%;
+    height: 500px;
+
+}
+#about-left , #about-right {
+    width: 49.9%;
+    height: 500px;
+    float: left;
+    background:skyblue ;
+}
+#about-left {
+    border-right: 1px solid black;
+}
