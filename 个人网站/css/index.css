@@ -56,11 +56,33 @@
 
 }
 #about-left , #about-right {
-    width: 49.9%;
+    width: 49%;
     height: 500px;
     float: left;
-    background:skyblue ;
+    background: saddlebrown ;
 }
 #about-left {
-    border-right: 1px solid black;
+    float: left;
+}
+#about-right {
+    float: right;
+}
+.middle-border {
+    width:2%;
+    height: 500px;
+    background: url("../img/jpeg/星星.png");
+    float: left;
+}
+
+#footer {
+    height: 100px;
+    width: 13%;
+    background: url("../img/jpeg/边框.png") no-repeat center center;
+    background-size: contain ;
+    float: right;
+}
+#footer p{
+    width: 200px;
+    height: 100px;
+    line-height:150px;
 }
