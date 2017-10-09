@@ -55,11 +55,14 @@
     height: 500px;
 
 }
+#about-me p{
+    color: white;
+}
 #about-left , #about-right {
     width: 48%;
     height:500px;
     float: left;
-    background: saddlebrown ;
+    background: white;
 }
 #about-left {
     float: left;
@@ -67,16 +70,34 @@
 #about-right {
     float: right;
 }
+.square{
+    width: 95%;
+    height: 400px;
+    background: white ;
+    margin: 5% auto ;
+    background: url("../img/jpeg/timg (1).jpg") center center;
+    opacity: 0.9;
+    border-radius: 50px ;
+}
+
+
+
 .middle-border {
     width:4%;
     height: 500px;
     float: left;
+
 }
 .middle-border img {
     width: 100%;
     height: 500px;
-
 }
+#contact {
+    width: 100%;
+    height: 600px;
+    background: white;
+}
+
 #footer {
     height: 100px;
     width: 13%;

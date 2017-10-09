@@ -3,5 +3,8 @@
  */
 
 $("#bb").on("click",function () {
-    $("html,body").animate({scrollTop:$("#about-me").offset().top},1000);
+    $("html,body").animate({scrollTop:$("#cloud").offset().top},100);
+});
+$("#cc").on("click",function () {
+    $("html,body").animate({scrollTop:$("#contact").offset().top},100);
 });
