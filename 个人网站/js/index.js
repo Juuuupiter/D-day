@@ -11,3 +11,12 @@ $("#cc").on("click",function () {
 $("#dd").on("click",function () {
     $("html,body").animate({scrollTop:$("#contact").offset().top},100);
 });
+
+
+$("#text")
+    .typetype('Hello, world!')
+    .delay(100)
+    .typetype("\n This is my website")
+    .backspace(25)
+    .fadeOut ()
+
