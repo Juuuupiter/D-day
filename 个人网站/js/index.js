@@ -14,9 +14,10 @@ $("#dd").on("click",function () {
 
 
 $("#text")
-    .typetype('Hello, world!')
+    .typetype('Welcome to my world!')
     .delay(100)
-    .typetype("\n This is my website")
-    .backspace(25)
-    .fadeOut ()
+    .typetype("\nThis is my website.")
+    .typetype("\n  ")
+    .backspace(50)
+    .typetype('\n\n\n这是一颗星球叫M902')
 
