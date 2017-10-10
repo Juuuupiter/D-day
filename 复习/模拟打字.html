@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery.Type</title>
+    <script src="jquery-1.12.4.js "></script>
+    <script src="jquery.typetype.min.js "></script>
+</head>
+<body>
+<textarea name="" id="txt1" cols="30" rows="10"></textarea>
+<br>
+<textarea name="" id="txt2" cols="30" rows="10"></textarea>
+<br>
+<textarea name="" id="txt3" cols="30" rows="10">
+    这是测试文本，这是测试文本，这是测试文本，这是测试文本
+</textarea>
+<br>
+<textarea name="" id="txt4" cols="30" rows="10"></textarea>
+<script>
+    $('#txt1').typetype('Some text that you want to demo');
+    $('#txt2').typetype(
+        '这是一段测试文字',
+        {
+            e: 0.04, // error rate. (use e=0 for perfect typing)
+            t: 100, // interval between keypresses
+            keypress: function (){
+                //alert("1")// called after every keypress (this may be an erroneous keypress!)
+            },
+            callback: function (){
+                alert('1')// the `this` keyword is bound to the particular element.
+            }
+        }
+    );
+    $('#txt2').backspace(
+        14, // number of chars to backspace
+        {
+            t: 100, // interval between keypresses
+            keypress: function (){ },
+            callback: function (){ }
+        }
+    );
+    $('#txt4')
+        .typetype('Hello, world!')
+        .delay(1000)
+        .typetype('\n\nGoodbye.')
+        .backspace(25)
+        .fadeOut()
+</script>
+</body>
+</html>
