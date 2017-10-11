@@ -14,10 +14,12 @@ $("#dd").on("click",function () {
 
 
 $("#text")
-    .typetype('Welcome to my world!')
+    .typetype('Hey')
+    .delay(100)
+    .typetype('\nWelcome to my world!')
     .delay(100)
     .typetype("\nThis is my website.")
     .typetype("\n  ")
     .backspace(50)
-    .typetype('\n\n\n这是一颗星球叫M902')
+    .typetype('\n\n\n这是一颗星球叫M902 ♥')
 
