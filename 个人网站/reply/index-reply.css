@@ -1,6 +1,25 @@
+@media (max-width:1360px)  {
+    #text {
+        font-size: 30px;
+    }
+    #center-right {
+        width: 50%;
+    }
+    button{
+        margin-top: 16%;
+    }
+}
 @media (max-width: 1265px ) {
     #nav-left li{
         margin-left: 5%;
+    }
+}
+@media (max-width: 1110px) {
+    #text {
+        width: 30%;
+    }
+    #center-right {
+        width: 60%;
     }
 }
 @media (max-width: 1000px) {
@@ -9,6 +28,19 @@
     }
     #nav-left li{
         font-size: 15px;
+    }
+}
+@media (max-width: 925px ) {
+    #text {
+        display: none;
+    }
+    #center-right {
+        width: 100%;
+        float: left;
+    }
+    button {
+        margin-top: 13% ;
+        margin-left: -10%;
     }
 }
 @media (max-width: 700px) {
