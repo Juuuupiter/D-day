@@ -142,7 +142,7 @@ button {
     width: 15%;
     background: url("../img/jpeg/边框.png") no-repeat center center;
     background-size: contain ;
-    float: right;
+    float:left;
 }
 #footer p{
     width: 200px;
